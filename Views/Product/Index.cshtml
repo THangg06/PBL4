@@ -1,0 +1,52 @@
+@model IEnumerable<WebMVC.Models.Product>
+
+@{
+    ViewData["Title"] = "Quản lý sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+  <head>
+    <link rel="stylesheet" href="~/css/Product.css">
+    
+</head>
+
+
+<div class="content_box">
+    
+
+ 
+
+    <div class="filter-box" id="editcbb">
+        
+        <input type="button"
+               onclick="window.location.href='@Url.Action("Add")'"
+               value="Tạo sản phẩm mới" class="btn btn-info btn-sm">
+    </div>
+<div class="data_table_container">
+    @if (Model != null && Model.Any())
+    {
+        foreach (var item in Model)
+        {
+            <div class="product-card">
+                <img src="~/imagep/@item.Thumb" alt="Product Image" class="product-image" />
+                <div class="product-info">
+                    <div class="name-product">@Html.DisplayFor(modelItem => item.ProductName)</div>
+                    <div class="product-category">@Html.DisplayFor(modelItem => item.CatName)</div>
+                    <div class="product-price">@Html.DisplayFor(modelItem => item.Price) VNĐ</div>
+                    @* <div class="action-buttons">
+                        <input type="button" class="mod-btn" onclick="window.location.href='@Url.Action("Edit", new { id = item.ProductID })'" value="Sửa" class="btn btn-info btn-sm">
+                        <input type="button" class="mod-btn" onclick="window.location.href='@Url.Action("Details", new { id = item.ProductID })'" value="Chi tiết" class="btn btn-info btn-sm">
+                        <input type="button" class="mod-btn" id="delete" onclick="window.location.href='@Url.Action("Delete", new { id = item.ProductID })'" value="Xóa" class="btn btn-danger btn-sm">
+                    </div> *@
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="text-center">Không có sản phẩm nào.</div>
+    }
+</div>
+
+</div>
+</html>

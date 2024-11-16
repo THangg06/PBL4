@@ -1,0 +1,76 @@
+@model WebMVC.Models.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .product-image {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .product-image-preview {
+        max-width: 200px;
+        max-height: 200px;
+    }
+</style>
+
+<div class="content_box">
+    <hr />
+    <div class="form_container">
+        <div class="content">
+            <form asp-controller="AdminProducts" asp-action="Edit" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="ProductID" />
+
+                <div class="user-details">
+                    <div class="input-box">
+                        <label asp-for="ProductName" class="control-label"></label>
+                        <input asp-for="ProductName" class="form-control" />
+                        <span asp-validation-for="ProductName" class="text-danger"></span>
+                    </div>
+
+                   <div class="input-box" id="special">
+    <label  for="productCategory">Danh mục sản phẩm</label>
+    <select class="custom-select" asp-for="CatID" style="min-width: 200px" asp-items="ViewBag.Danhmuc">
+        <option value="" disabled selected>Chọn danh mục</option>
+    </select>
+
+</div>
+
+                    <div class="input-box">
+                        <label asp-for="Price" class="control-label"></label>
+                        <input asp-for="Price" class="form-control" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div>
+
+                    <div class="input-box" id="special">
+                        <label for="Thumb" class="font-weight-semibold">Ảnh đại diện</label>
+                        <input name="fThumb" type="file" class="form-control" asp-for="Thumb" onchange="previewImage(event)" />
+                        <span asp-validation-for="Thumb" class="text-danger"></span>
+                        <img id="imagePreview" class="product-image-preview" src="@Url.Content("~/menucss/" + Model.Thumb)" alt="Current Product Image" />
+                        <input type="hidden" name="ExistingThumb" value="@Model.Thumb" />
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function previewImage(event) {
+        var input = event.target;
+        var reader = new FileReader();
+        reader.onload = function () {
+            var imagePreview = document.getElementById('imagePreview');
+            imagePreview.src = reader.result;
+        };
+        reader.readAsDataURL(input.files[0]);
+    }
+</script>

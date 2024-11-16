@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/obj/Debug/net8.0/scopedcss/projectbundle/WebMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets/WebMVC.bundle.scp.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/WebMVC.styles.css.bak",
+      "PackagePath": "staticwebassets/WebMVC.styles.css.bak"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/css/DashBoardAd.css",
+      "PackagePath": "staticwebassets/css/DashBoardAd.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/css/Header.css",
+      "PackagePath": "staticwebassets/css/Header.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/css/Homepage.css",
+      "PackagePath": "staticwebassets/css/Homepage.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/css/Product.css",
+      "PackagePath": "staticwebassets/css/Product.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/css/QLDM.css",
+      "PackagePath": "staticwebassets/css/QLDM.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/css/QLNV.css",
+      "PackagePath": "staticwebassets/css/QLNV.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/50d2ac56-97e8-402a-8bce-68e6f9af0226.jpeg",
+      "PackagePath": "staticwebassets/imagep/50d2ac56-97e8-402a-8bce-68e6f9af0226.jpeg"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/795b5da9-f663-4345-81a8-840b115b1b44.jpeg",
+      "PackagePath": "staticwebassets/imagep/795b5da9-f663-4345-81a8-840b115b1b44.jpeg"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/bookskill.png",
+      "PackagePath": "staticwebassets/imagep/bookskill.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/c42d595d-a211-4cfd-b235-e7599f395bdb.png",
+      "PackagePath": "staticwebassets/imagep/c42d595d-a211-4cfd-b235-e7599f395bdb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/c8dc7bb7-be39-4e06-a56e-4dbd91664249.png",
+      "PackagePath": "staticwebassets/imagep/c8dc7bb7-be39-4e06-a56e-4dbd91664249.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/cookbook_thumb.png",
+      "PackagePath": "staticwebassets/imagep/cookbook_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/e98c1163-2103-4840-a876-6e4747c8af6c.png",
+      "PackagePath": "staticwebassets/imagep/e98c1163-2103-4840-a876-6e4747c8af6c.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/fiction_book_thumb.png",
+      "PackagePath": "staticwebassets/imagep/fiction_book_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/jeans_thumb.png",
+      "PackagePath": "staticwebassets/imagep/jeans_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/laptop_thumb.png",
+      "PackagePath": "staticwebassets/imagep/laptop_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/microwave_oven_thumb.png",
+      "PackagePath": "staticwebassets/imagep/microwave_oven_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/refrigerator_thumb.png",
+      "PackagePath": "staticwebassets/imagep/refrigerator_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/screenshot from 2024-08-24 16-05-12.png",
+      "PackagePath": "staticwebassets/imagep/screenshot from 2024-08-24 16-05-12.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/smartphone_thumb.png",
+      "PackagePath": "staticwebassets/imagep/smartphone_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/sneakers_thumb.png",
+      "PackagePath": "staticwebassets/imagep/sneakers_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/tablet_thumb.png",
+      "PackagePath": "staticwebassets/imagep/tablet_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/imagep/tshirt_thumb.png",
+      "PackagePath": "staticwebassets/imagep/tshirt_thumb.png"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/var/www/html/WebFIre/WebMVC/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WebMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.WebMVC.props",
+      "PackagePath": "build\\WebMVC.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebMVC.props",
+      "PackagePath": "buildMultiTargeting\\WebMVC.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebMVC.props",
+      "PackagePath": "buildTransitive\\WebMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

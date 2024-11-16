@@ -1,0 +1,117 @@
+@model WebMVC.Models.Product;
+
+@{
+    ViewData["Title"] = "Thêm sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .content_box {
+        width: 100%;
+        padding: 20px;
+        background-color: #f8f9fa;
+    }
+
+    .form_container {
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .input-box {
+        margin-bottom: 15px;
+    }
+
+    .control-label {
+        font-weight: bold;
+    }
+
+    .product-image {
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .product-image-preview {
+        display: none;
+        max-width: 200px;
+        max-height: 200px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .button {
+        text-align: right;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+</style>
+
+<div class="content_box">
+    <hr />
+    <div class="form_container row">
+        <div class="content col-md-4">
+            <form asp-controller="Product" asp-action="Add" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="input-box">
+                    <label asp-for="ProductID" class="control-label"></label>
+                    <input asp-for="ProductID" class="form-control" />
+                    <span asp-validation-for="ProductID" class="text-danger"></span>
+                </div>
+
+                <div class="input-box">
+                    <label asp-for="ProductName" class="control-label"></label>
+                    <input asp-for="ProductName" class="form-control" />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+
+                <div class="input-box">
+                    <label asp-for="CatID" class="control-label">Danh mục sản phẩm</label>
+                    <select class="custom-select" asp-for="CatID" asp-items="ViewBag.CategoryList">
+                        <option value="" disabled selected>Chọn danh mục</option>
+                    </select>
+                    <span asp-validation-for="CatID" class="text-danger"></span>
+                </div>
+
+                <div class="input-box">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+
+                <div class="input-box">
+                    <label for="Thumb">Ảnh đại diện</label>
+                    <input name="fThumb" type="file" class="form-control" asp-for="Thumb" onchange="previewImage(event)" />
+                    <span asp-validation-for="Thumb" class="text-danger"></span>
+                    <img id="imagePreview" class="product-image-preview" src="#" alt="Product Image Preview" />
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function previewImage(event) {
+        const reader = new FileReader();
+        reader.onload = function() {
+            const output = document.getElementById('imagePreview');
+            output.src = reader.result;
+            output.style.display = 'block';
+        };
+        if (event.target.files[0]) {
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    }
+</script>
